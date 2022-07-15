@@ -1,0 +1,15 @@
+##Rules for relabsd easy config.
+##Logitech Vendor
+#SUBSYSTEM=="input", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c603", SYMLINK+="input/spacemouse"
+#SUBSYSTEM=="input", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c621", SYMLINK+="input/spaceball"
+#SUBSYSTEM=="input", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c623", SYMLINK+="input/spacetraveler"
+#SUBSYSTEM=="input", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c626", SYMLINK+="input/spacenavigator"
+#SUBSYSTEM=="input", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c627", SYMLINK+="input/spacenavigator"
+##3DConnexion Vendor (newest ones or european market?)
+SUBSYSTEM=="input", ATTRS{idVendor}=="256f", ATTRS{idProduct}=="c635", SYMLINK+="input/spacemouse"
+#c62e  SpaceMouse Wireless (cabled)
+#c62f  SpaceMouse Wireless Receiver
+#c631  SpaceMouse Pro Wireless (cabled)
+#c632  SpaceMouse Pro Wireless Receiver
+#c633  SpaceMouse Enterprise
+#c635  SpaceMouse Compact
